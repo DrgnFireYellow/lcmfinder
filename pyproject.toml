@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lcmfinder"
+version = "0.1.0"
+description = "Find LCMs of a given number"
+authors = ["Your Name <you@example.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sympy = "^1.12"
+rich = "^13.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

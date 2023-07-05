@@ -10,7 +10,7 @@ keep_going = input("Would you like to find the next LCM? [y/n] ")
 
 if keep_going.lower().startswith("y"):
     keep_going = True
-elif keep_going.lower().startswith("n"):
+else:
     keep_going = False
 
 while keep_going:
@@ -20,5 +20,5 @@ while keep_going:
 
     if keep_going.lower().startswith("y"):
         keep_going = True
-    elif keep_going.lower().startswith("n"):
+    else:
         keep_going = False
